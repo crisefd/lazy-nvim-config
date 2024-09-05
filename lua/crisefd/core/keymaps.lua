@@ -3,6 +3,7 @@ vim.g.mapleader = " "
 local keymap = vim.keymap -- force conciness
 
 keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
+
 keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search hightlights" })
 keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
 keymap.set("n", "<leader>-", "<C-x>", { desc = "Decrement number" }) -- decrement
@@ -16,3 +17,4 @@ keymap.set("n", "<leader>tn", "<cmd>tabn<CR>", { desc = "Go to next tab" }) --  
 keymap.set("n", "<leader>tp", "<cmd>tabp<CR>", { desc = "Go to previous tab" }) --  go to previous tab
 keymap.set("n", "<leader>tf", "<cmd>tabnew %<CR>", { desc = "Open current buffer in new tab" }) --  move current buffer to new tab
 -- https://vi.stackexchange.com/questions/84/how-can-i-copy-text-to-the-system-clipboard-from-vim
+-- https://hatchjs.com/neovim-copy-to-system-clipboard/
