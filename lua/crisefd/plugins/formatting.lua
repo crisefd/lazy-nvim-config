@@ -8,7 +8,10 @@ return {
 			formatters_by_ft = {
 				javascript = { "prettier" },
 				typescript = { "prettier" },
-				elixir = { "prettier" },
+				elixir = { "mix" },
+				eelixir = { "mix" },
+				heex = { "mix" },
+				surface = { "mix" },
 				javascriptreact = { "prettier" },
 				typescriptreact = { "prettier" },
 				svelte = { "prettier" },
